@@ -2,6 +2,8 @@ let map, tileset;
 const ascii_map = document.getElementById('ascii_map');
 const generateButton = document.getElementById('generate_map');
 
+generateButton.disabled = true;
+
 function handleFileSelect(evt) {
   evt.stopPropagation();
   evt.preventDefault();
